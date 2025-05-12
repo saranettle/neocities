@@ -44,3 +44,25 @@ header {
   .home_nav:hover img, .home_nav:focus img {
     /* add hover effects like transform or filter to your images here! */
   }
+
+/* CSS for About Page */
+#about_body {
+    background-color: #AFB8F8;
+}
+
+#about_body header {
+    text-align: center;
+    margin: auto;
+}
+
+#about_body main {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    border-style: dotted;
+}
+
+#about_body footer {
+    justify-content: center;
+}
