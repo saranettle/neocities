@@ -1,6 +1,14 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~CSS for Main Home Page~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 header {
     display: flex;
     justify-content: center;
+    margin: 75px 0px;
+}
+
+header img {
+    margin: 0px 10px;
 }
 
 #home_main {
@@ -21,8 +29,71 @@ header {
     position: relative;
 }
 
-/* Credit for text hover in home nav: https://ribo.zone/free/snippets/ */
+/* SSQUIGGLE Letters Animation */
+#header_s {
+    position: relative;
+    animation-name: header_s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes header_s {
+    0% { top: 0px; }
+    25% { top: -50px; }
+    75% { top: 50px; }
+    100% { top: 0px; }
+}
+
+#header_q {
+    position: relative;
+    animation-name: header_q;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header_q {
+    50% { transform: rotate(360deg); }
+}
+
+#header_l {
+    position: relative;
+    animation-name: header_l;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header_l {
+    0% { top: 0px; left: 0px; }
+    25% { top: -20px; left: 0px; }
+    50% { top: 0px; left: 20px; }
+    75% { top: 20px; left: 0px; }
+    90% { top: 0px; left: -20px; }
+    100% { top: -20px; left: 0px; }
+}
+
+/* Home Page Gradient Background */
+/* Code credit: https://manuel.pinto.dev */
+body {
+	background: linear-gradient(-45deg, #dcb5ff, #ffb7b5, #d8ffb5, #b6fdff, #dcb5ff, #ffb7b5, #d8ffb5, #b6fdff);
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* Credit for text hover in home nav: https://ribo.zone/free/snippets/ */
 .home_nav span {
     opacity: 0;
     position: absolute;
@@ -44,9 +115,13 @@ header {
   .home_nav:hover img, .home_nav:focus img {
     /* add hover effects like transform or filter to your images here! */
   }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/* CSS for About Page */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~CSS for About Page ~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #about_body {
+    background: none;
     background-color: #AFB8F8;
 }
 
