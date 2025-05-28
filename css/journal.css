@@ -1,0 +1,11 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~CSS for Journal Page ~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+article {
+    border-bottom: black dotted;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
