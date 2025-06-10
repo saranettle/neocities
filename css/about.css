@@ -13,7 +13,7 @@
 
 #about_body main {
     background-color: white;
-    width: 60%;
+    width: 85%;
     margin: auto;
     padding: 15px;
     border-style: dotted;
@@ -21,4 +21,13 @@
 
 #about_body footer {
     justify-content: center;
+}
+
+div {
+    border-style: dashed;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
 }
