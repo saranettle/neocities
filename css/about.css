@@ -3,7 +3,11 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #about_body {
     background: none;
-    background-color: #AFB8F8;
+    background-color: #008080;
+    color: #010081;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #about_body header {
@@ -12,22 +16,47 @@
 }
 
 #about_body main {
-    background-color: white;
-    width: 85%;
+    width: 70%;
     margin: auto;
     padding: 15px;
-    border-style: dotted;
 }
 
 #about_body footer {
     justify-content: center;
 }
 
-div {
-    border-style: dashed;
-}
-
 main {
     display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_left {
+   flex: 1;
+}
+
+#section_right {
+    flex: 1;
+}
+
+#about_basic {
+    display: flex;
     flex-direction: row;
+}
+
+#about_left {
+    flex: 1;
+}
+
+#about_right {
+    flex: 1;
+}
+
+.window {
+    background-color: #fdffff;
+    margin: 15px;
+    padding: 10px;
 }
