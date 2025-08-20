@@ -15,6 +15,16 @@
     margin: auto;
 }
 
+#back_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
 #about_body main {
     width: 70%;
     margin: auto;
@@ -27,6 +37,12 @@
 
 main {
     display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -49,6 +65,7 @@ section {
 
 #about_left {
     flex: 1;
+    margin-right: 15px;
 }
 
 #about_right {
@@ -60,3 +77,20 @@ section {
     margin: 15px;
     padding: 10px;
 }
+
+#section_right ul {
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    height: 100px;
+    overflow: auto;
+}
+
+#change_log {
+    list-style-type: "\2714";
+}
+
+#todo_list {
+    list-style-type: "\2610";
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1027.ani), url(https://cur.cursors-4u.net/nature/nat-11/nat1027.gif), auto !important;} /* End https://www.cursors-4u.com */
