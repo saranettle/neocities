@@ -2,10 +2,22 @@
 /* ~~~~~~~~~~~~~~CSS for Journal Page ~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
 article {
     border-bottom: black dotted;
     background-color: white;
-    width: 60%;
     margin: auto;
     padding: 15px;
+}
+
+.blog_content {
+    height: 400px;
+    overflow: auto;
+    width: 50%;
 }
