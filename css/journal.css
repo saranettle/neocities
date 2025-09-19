@@ -2,6 +2,28 @@
 /* ~~~~~~~~~~~~~~CSS for Journal Page ~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+@font-face {
+    font-family: Amaken;
+    src: url("../static/Amakan-Strips.woff") format("woff");
+}
+
+h1, h2 {
+    font-family: Amaken;
+    color: #DB4E1B;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/journal-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 main {
     display: flex;
     flex-direction: row;
@@ -11,7 +33,6 @@ main {
 
 article {
     border-bottom: black dotted;
-    background-color: white;
     margin: auto;
     padding: 15px;
 }
@@ -20,4 +41,7 @@ article {
     height: 400px;
     overflow: auto;
     width: 50%;
+    background-image: url('../images/paper-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
